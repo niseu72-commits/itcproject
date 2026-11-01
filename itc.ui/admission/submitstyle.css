@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(12, 116, 12);
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+h1{
+    color: rgb(0, 195, 78);
+    margin: 0 0 14px;
+    font-size: 50px;
+}
+#message{
+    line-height: 1.6;
+    margin:  0 0 24px;
+    font-size: 18px;
+}
+#congrats-image{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 14px;
+}
+#thank-you{
+    margin: 24px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.back-button{
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 10px;
+    background-color: rgb(23, 107, 56);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+.back-button:hover{
+    background-color: rgb(16, 81, 42);
+}
+.back-button:focus-visible{
+    outline: 3px solid rgb(23, 107, 56);
+    outline-offset: 4px;
+}

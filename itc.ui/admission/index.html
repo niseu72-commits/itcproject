@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ADMISSION PORTAL</title>
+  <link rel="stylesheet" href="admissionstyle.css">
+</head>
+<body>
+  <h1>ADMISSION PAGE</h1>
+    <p id="welcome-message">Welcome to the Admission Portal. Please fill out the form below to apply for admission.</p>
+  <section>
+    <h2>APPLY FOR ADMISSION</h2>
+    <form action="submit.html" method="get" onsubmit="return confirm('SURE KA NA BA SA COURSE MO WALA NANG BALIKAN TO HAHAHHAHAHAHAHHAHAHAHAHHAHAHAHAHHAHAHAHAHHAHAHAHAHHAHAHAHHAHHA')">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="e.g., Juan Dela Cruz" required>
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="e.g., juandelacruz@email.com" required>
+      <br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="e.g., 09123456789" required>
+      <br><br>
+
+      <label for="course">Course of Interest:</label>
+      <select name="course" id="course" required>
+        <option value="" disabled selected>-- Select a course --</option>
+        <option value="BS Computer_Science">Computer Science</option>
+        <option value="BS Information Technology">Information Technology</option>
+        <option value="BS Civil Engineering">Civil Engineering</option>
+        <option value="BS Nursing">Nursing</option>
+        <option value="BS Psychology">Psychology</option>
+        <option value="BS Medical Technology">Medical Technology</option>
+        <option value="BS Midwifery">Midwifery</option>
+      </select>
+      <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+    <img src="pics\images.jpg" alt="NOICE" id="welcome-image">
+    <figcaption>IMONG REAKSYON SA PAG ADMISSION</figcaption>
+    <img src="pics\thinking monke.gif" alt="thinking" id="thinking-monke">
+  </section>
+  <footer>
+    <p id="footer-text">&trade; GAWA NG GROUP 6: Doroteo, Yabut, Bagarino, Ventinilla, Sabado &trade;</p>
+  </footer>
+</body>
+</html>

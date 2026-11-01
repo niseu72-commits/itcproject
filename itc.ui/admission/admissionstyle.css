@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(12, 116, 12);
+    font-family: Arial, sans-serif;
+}
+h1{
+    border: 3px solid black;
+    background-color: rgba(215, 166, 42, 0.741);
+    text-align: center;
+    padding: 24px 16px;
+}
+#welcome-message{
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+section{
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto 40px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+h2{
+    text-align: center;
+    margin-top: 0;
+    color: rgb(12, 116, 12);
+}
+label[for="name"], label[for="email"], label[for="phone"], label[for="course"]{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="tel"], select{
+    width: 95%;
+    padding: 12px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 6px;
+    font: inherit;
+}
+input:focus, select:focus{
+    outline: 3px solid rgba(12, 116, 12, 0.5);
+    outline-offset: 2px;
+}
+input[type="submit"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(12, 116, 12, 0.8);
+    color: white;
+    border: 1px solid rgba(12, 116, 12, 1);
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+input[type="submit"]:hover{
+    background-color: rgba(12, 116, 12, 1);
+}
+#welcome-image{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    width: 150px;
+}
+figcaption{
+    position: absolute;
+    top: 275px;
+    right: 5px;
+    color: rgb(250, 242, 242);
+    text-align: center;
+    font-size: 10px;
+}
+#thinking-monke{
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 300px;
+    height: auto;
+}
+footer{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    left: 10px;
+    border: 3px solid black;
+    background-color: rgba(215, 166, 42, 0.741);
+    text-align: center;
+    padding: 24px 16px;
+}
